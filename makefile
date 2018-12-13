@@ -1,5 +1,5 @@
 kilo: kilo.go
-	go build kilo.go
+	go build -o kilo
 
 clean:
 	-rm -rf kilo
